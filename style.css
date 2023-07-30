@@ -11,8 +11,8 @@ body{
     color: rgb(255, 255, 255);
     font-size: 50px;
     font-weight: bold;
-    margin-left: 100px;
-    margin-top: 30px;
+    /* margin-left: 100px;
+    margin-top: 30px; */
 }
 .para1
 {
@@ -26,9 +26,7 @@ body{
     color: white;
     border: 0px;
     cursor: pointer;
-    position: absolute;
-    top: 50px;
-    margin-left: 70%;
+    
 }
 .fa-solid
 {
@@ -78,4 +76,71 @@ body{
 .hide
 {
     display: none;
+}
+.blur
+{
+    filter: blur(5px);
+}
+.cardcontainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    height: 550px;
+    width: 950px;
+    /* background-color: aqua;
+    border: 5px solid red; */
+    margin-left: 250px;
+}
+.item-box
+{
+   margin-top: 20px;
+}
+.hello
+{
+    height: 80px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.carditem{
+    height: 250px;
+    width: 200px;
+    background-color: white;
+    /* margin: 20px; */
+}
+.heading
+{
+    color: blueviolet;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid red;
+}
+.textbox
+{
+    height: 150px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.btnb
+{
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color: red;
+    cursor: pointer;
+}
+.btna
+{
+    padding: 5px;
+    color: rgb(255, 255, 255); 
+    background-color: green;
+    border-radius: 5px;
+    margin-left: 50px;
+    cursor: pointer;
 }
