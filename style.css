@@ -324,6 +324,17 @@ hr {
         flex-direction: column;
         flex-wrap: nowrap;
     }
+    .todo_card {
+        width: 300px;
+        height: 480px;
+        border: 2px solid black;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 5px 5px 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        transition: all 0.05s;
+    }
 }
 /* mobile view */
 @media (min-width: 300px) and (max-width: 499px) {
@@ -390,5 +401,10 @@ hr {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
+    }
+    .todo_body {
+        width: 100%;
+        height: 42vh;
+        margin-top: 5px;
     }
 }
