@@ -275,7 +275,7 @@ hr {
 }
 
 /* media query */
-@media (min-width: 500px) and (max-width: 720px) {
+@media (min-width: 500px) and (max-width: 1030px) {
     #task {
         position: absolute;
         top: 15px;
@@ -311,7 +311,7 @@ hr {
         height: 200px;
         position: absolute;
         top: 280px;
-        left: 40px;
+        left: 100px;
     }
 
     #flex-container {
